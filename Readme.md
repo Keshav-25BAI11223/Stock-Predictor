@@ -39,9 +39,7 @@ To prevent the GUI from freezing during heavy math lifting, the project uses a *
 
 ```text
 .
-├── quant_terminal.py   # The Main Application (GUI + AI Logic)
-├── requirements.txt    # Dependency Manifest
-└── assets/             # (Optional) Icons and UI Styles
+├── prediction.py   # The Main Application (GUI + AI Logic)
 ```
 
 ---
@@ -60,7 +58,7 @@ pip install yfinance pandas scikit-learn matplotlib vaderSentiment
 ### 3. Usage
 Run the application:
 ```bash
-python quant_terminal.py
+python prediction.py
 ```
 * **Search:** Type `BHEL` or `AAPL`. The smart engine will find the correct exchange automatically.
 * **Manage:** Add/Remove stocks to customize your dashboard.
