@@ -35,15 +35,6 @@ To prevent the GUI from freezing during heavy math lifting, the project uses a *
 
 ---
 
-## 📂 Project Structure
-
-```text
-.
-├── prediction.py   # The Main Application (GUI + AI Logic)
-```
-
----
-
 ## 🚦 Getting Started
 
 ### 1. Prerequisites
